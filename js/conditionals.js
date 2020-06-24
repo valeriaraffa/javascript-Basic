@@ -1,7 +1,8 @@
 const answer = prompt('Which planet is closest to the sun?');
 
-if( answer.toUpperCase() === 'Mercury') {
+if( answer.toUpperCase() === 'MERCURY') {
     console.log("That's correct");
 } else {
     console.log("Sorry thats incorrect");
+    console.log(answer.toUpperCase());
 }
