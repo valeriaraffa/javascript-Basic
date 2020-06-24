@@ -11,3 +11,16 @@ let age = 35;
 
 let age = 10; 
 (20<age && age <30) // false
+
+/**
+ * Logical Or || (two pipe characters)
+ * if condition 1 is true or condition 2 is true
+ */
+let agree ='yes';
+(agree ==='yes' || agree === 'y') // true
+
+let agree ='y';
+(agree ==='yes' || agree === 'y') // true
+
+let agree ='n';
+(agree ==='yes' || agree === 'y') // false
